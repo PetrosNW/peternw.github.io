@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        div.center {
+
+text-align: center;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+body{
+    background-color: lightgreen;
+  }
+  .button{
+    background-color: yellow;
+cursor: pointer;
+} 
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">The best football pics</h1>
+    <div class="row">
+   <div class="column"> <img src="images/uefa.jpg" alt=""> </div>
+   <div class="column"> <img src="images/uefa cup.jpg" alt=""> </div>
+    <div class="column"> <img src="images/world cup.jpg" alt=""> </div>
+</div>
+<button class="button">
+    <a href="index.html">previous</a>
+</button>
+
+<div class="center">    
+    <video width="450" height="350" autoplay muted loop>
+    <source src="videos/uefa.mp4" type="video/mp4">
+  </video>
+</div>
+</body>
